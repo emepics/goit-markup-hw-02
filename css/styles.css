@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -23,9 +23,10 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-dark {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .nav-list .nav-link {
   font-weight: 500;
@@ -43,13 +44,15 @@ a {
   text-decoration: underline;
 }
 
-.address .address-item {
+.address {
+  font-style: normal;
+}
+.address-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 .address-hover:hover,
 .address-hover:focus {
@@ -121,6 +124,7 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .member-descr {
   font-weight: 400;
@@ -148,6 +152,7 @@ a {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .portfolio-decr {
   font-weight: 400;
@@ -162,15 +167,7 @@ a {
 .footer {
   background-color: #2e2f42;
 }
-.footer-web {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
+
 .footer-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
